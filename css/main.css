@@ -1,0 +1,63 @@
+
+div#main-container {
+  width: 800px;
+  height: 300px;
+
+  overflow: hidden;
+
+  margin: 10px;
+  padding: 0;
+
+  background-color: #c4c4c4;
+}
+
+div#title,
+div#info,
+div#car-track {
+  width: 100%;
+  position: relative;
+}
+
+div#title {
+  text-align: center;
+  margin-top: 10px;
+
+  font-size: 24px;
+  font-weight: bold;
+}
+
+div#car-track {
+  height: 100px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+path#car-body {
+  fill: red;
+}
+
+div#info {
+  padding: 10px;
+}
+
+div#info > div {
+  width: 100%;
+  margin-top: 5px;
+}
+
+div.label {
+  display: inline-block;
+  width: 60px;
+}
+
+div.value {
+  display: inline-block;
+  width: 100px;
+  background-color: white;
+}
